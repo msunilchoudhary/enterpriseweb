@@ -1,0 +1,8 @@
+.banner-card{position: relative; overflow: hidden; border-radius: 15px;}
+.banner-card img{max-width:100%; transition:all .3s ease-in-out; transform:scale(1);}
+.banner-card:hover img{transition:all .3s ease-in-out; transform:scale(1.1);}
+.banner-card .banner-content{position:absolute; width:70%; padding:0 30px; left:0; top:0; font-weight: 600; display:flex; flex-direction: column; justify-content: center; height:100%;}
+.banner-card .banner-content h3{font-weight:600; margin-bottom: 15px;}
+.banner-card .banner-content p{margin:5px 0; font-size:17px;}
+.banner-card .banner-content a{margin-top:15px;}
+.banner-card .banner-content p.desc{font-size:19px;}

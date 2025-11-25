@@ -1,0 +1,8 @@
+.hero-slider .slide-item img{max-width:100%; border-radius: 15px;}
+.hero-slider .slide-item{position: relative; overflow: hidden;}
+.hero-slider .slide-item .container{position:absolute; max-width:100%; top:0; left:0; height:100%;}
+.hero-slider .slide-item .container .row{height:100%;}
+.hero-slider .slide-item .sider-content-wrap{padding-left:40px;}
+.hero-slider .slick-dots li button::before{color:#ccc; background-color:#ccc; opacity: 1; border-radius:50%;}
+.hero-slider .slick-dots li.slick-active button::before{background-color: #0970a0; color:#fff;}
+.hero-slider .slick-dots{bottom:15px;}

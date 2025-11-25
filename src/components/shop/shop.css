@@ -1,0 +1,28 @@
+.priceRangeWrap{padding-bottom:10px;}
+.priceRangeWrap .price-input { width: 100%; display: flex; margin:10px 0;}
+.priceRangeWrap .price-input .field { display: flex; width: 100%; height: 45px; align-items: center; }
+.priceRangeWrap .slider { height: 10px; position: relative; background: #ddd; border-radius: 10px;}
+.priceRangeWrap .slider .progress { height: 100%; left: 25%; right: 25%; position: absolute; border-radius: 5px; background: #17a2b8;}
+.priceRangeWrap .range-input {position: relative;}
+.priceRangeWrap .range-input input { position: absolute; width: 100%; height: 5px; top: -8px; background: none; pointer-events: none; -webkit-appearance: none; -moz-appearance: none;}
+.priceRangeWrap .range-input input[type="range"]::-webkit-slider-thumb { height: 17px; width: 17px; border-radius: 50%; background: #17a2b8; pointer-events: auto; -webkit-appearance: none; box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);}
+.range-input input[type="range"]::-moz-range-thumb { height: 17px; width: 17px; border: none; border-radius: 50%; background: #17a2b8; pointer-events: auto; -moz-appearance: none; box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);}
+
+.filter-lists ul{margin: 0; padding:0;}
+.filter-lists li{margin-bottom: 10px;}
+.filter-lists li input{border:1px solid #b1b1b1;}
+.filter-lists li label{display:flex; justify-content: space-between; padding-left:10px;}
+.filter-lists .color-name{text-transform: capitalize;}
+.filter-lists .count{opacity: .5;}
+.filter-lists li .form-check-input{width: 1.2em; height: 1.2em;}
+.top-strip{padding:0 0 20px; margin-bottom:20px; font-size:18px; border-bottom:1px solid #e4e4e4;}
+.top-strip p{margin:0;}
+.top-strip .items-found span{color:#056f80; font-weight:600; margin-right:4px;}
+.top-strip .sorting{display: flex; gap:20px; justify-content: flex-end;}
+.top-strip .sorting .hdr-category-block{border: 1px solid #accbf3; height: 42px; padding: 0 20px; border-radius: 4px; width:auto;}
+.top-strip .sorting .hdr-category-block span{text-align: left; padding:0 8px 0 4px; font-weight: 600; height: 100%; width: 100%; display: flex; align-items: center; font-size: 16px;}
+.top-strip .sorting .hdr-category-lists{width: 100%; }
+.top-strip .sorting .hdr-category-lists input{display: none;}
+.top-strip .sorting .hdr-category-lists .listbar{height: auto;}
+.top-strip .sorting .hdr-category-lists .listbar {padding: 5px 0; font-size: 16px;}
+.top-strip .sorting .hdr-category-lists .listbar.active{padding: 5px 7px;}
